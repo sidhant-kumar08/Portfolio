@@ -1,13 +1,16 @@
-import React from "react";
-import LetterPullup from "@/components/magicui/letter-pullup";
+import React, { useState, useEffect } from "react";
 
 function Header() {
+
+
   return (
     <>
+
+
       <div className="flex justify-center items-center gap-6">
         <div className="p-2 rounded-full ">
           <img
-            className="rounded-full overflow-hidden border cursor-pointer hover:rotate-6 transition duration-100 hover:scale-105 border-[#FFA62F] w-24 h-24 md:block w-full object-cover md:size-40 size-28"
+            className="rounded-full overflow-hidden border cursor-pointer hover:rotate-6 transition duration-100 hover:scale-105 border-[#FFA62F] h-24 w-24 object-cover md:h-32 md:w-32 "
             src="./dp.jpg"
             alt="image"
           />

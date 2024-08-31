@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function About() {
+function AboutPage() {
   return (
     <div className="flex justify-center items-center mt-6">
       <div className="w-5/6 md:w-1/2">
@@ -30,43 +30,29 @@ function About() {
             <span className="text-[#FFA62F] font-semibold">
               Software development
             </span>
-            . My primary expertise lies in building dynamic and responsive
+            .
+            <div className="mt-2">My primary expertise lies in building dynamic and responsive
             websites using{" "}
             <span className="text-[#212121ce] font-bold">React</span> and{" "}
             <span className="text-[#212121ce] font-bold">Tailwind</span>, paired
             with robust backend solutions using{" "}
             <span className="text-[#212121ce] font-bold">Express</span>,{" "}
             <span className="text-[#212121ce] font-bold">Node</span> and{" "}
-            <span className="text-[#212121ce] font-bold">MongoDB</span>. You can
+            <span className="text-[#212121ce] font-bold">MongoDB</span>.
+            <div className="mt-2">You can
             explore some of the projects I've developed with these technologies
-            in the <span className="text-[#FFA62F] font-semibold"><Link to='/projects'>"Projects"</Link></span> section.
+            in the <span className="text-[#FFA62F] font-semibold"><Link to='/projects'>"Projects"</Link></span> section.</div></div>
+            <div className="mt-2">In addition to the MERN stack, I am currently exploring Next.js and TypeScript to expand my skill set and stay up-to-date with the latest trends in web development.</div>
+            <div className="mt-2">My journey as a developer is driven by a continuous desire to learn and innovate, tackling challenging projects that push my technical boundaries.</div>
+
+            <div className="mt-2">Feel free to check out the "Projects" section to see some of the applications I've developed. Each project showcases my commitment to coding best practices, modern design principles, and a strong focus on user experience. Let's connect and collaborate to build something amazing!</div>
           </h1>
         </div>
 
-        <div class=" flex flex-row gap-1 items-center my-2 group cursor-pointer w-fit">
-          <Link
-            class=" font-bricolage font-semibold text-lg group-hover:underline transition-all "
-            to="about"
-          >
-            See more about me
-          </Link>
-          <div class=" group-hover:-rotate-45 transition-all">
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              viewBox="0 0 512 512"
-              height="1em"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path>
-            </svg>
-          </div>
-        </div>
+        
       </div>
     </div>
   );
 }
 
-export default About;
+export default AboutPage;

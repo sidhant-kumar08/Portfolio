@@ -40,7 +40,7 @@ function Projects() {
                   >
                     <img height={30} width={30} src="./link.svg" alt="" />
                   </a>
-                  <a target="blank" className="hover:scale-110 " href="/">
+                  <a target="blank" className="hover:scale-110 " href="https://sidhantkumar.vercel.app/">
                     <img height={30} width={30} src="./github.svg" alt="" />
                   </a>
                 </div>
@@ -121,7 +121,7 @@ function Projects() {
                   <a
                     target="blank"
                     className="hover:scale-110 hover:"
-                    href="https://proj4-notey-react.vercel.app/"
+                    href="https://proj4-notey.netlify.app/"
                   >
                     <img height={30} width={30} src="./link.svg" alt="" />
                   </a>
