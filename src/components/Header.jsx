@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import {motion} from 'framer-motion'
 
 function Header() {
 
@@ -9,8 +10,11 @@ function Header() {
 
       <div className="flex justify-center items-center gap-6">
         <div className="p-2 rounded-full ">
-          <img
-            className="rounded-full overflow-hidden border cursor-pointer hover:rotate-6 transition duration-100 hover:scale-105 border-[#FFA62F] h-24 w-24 object-cover md:h-32 md:w-32 "
+          <motion.img
+          initial={{scale:1, rotate:0}}
+          whileHover={{scale:1.1, rotate:10}}
+          transition={{type:"ease", stiffness:300, duration:0.2}}
+            className="rounded-full overflow-hidden border cursor-pointer  transition duration-100 border-[#FFA62F] h-24 w-24 object-cover md:h-32 md:w-32 "
             src="./dp.jpg"
             alt="image"
           />
