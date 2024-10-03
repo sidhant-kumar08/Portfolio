@@ -3,6 +3,7 @@ import Header from './Header'
 import Skills from './Skills'
 import Projects from './Projects'
 import About from './About'
+import HomeProjects from './HomeProjects'
 
 
 
@@ -12,7 +13,7 @@ function Home() {
         <Header />
         <About />
         <Skills />
-        <Projects />
+        <HomeProjects />
     </>
   )
 }
